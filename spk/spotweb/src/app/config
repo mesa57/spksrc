@@ -1,0 +1,15 @@
+{
+	".url": {
+		"org.mdevries.spotweb": {
+			"type": "url",
+			"allUsers": true,
+			"grantPrivilege": "local",
+			"title": "Spotweb",
+			"desc": "Spotweb",
+			"icon": "images/Spotweb-{0}.png",
+			"protocol": "http",
+			"url": "/spotweb",
+			"port": "80"			
+		}
+	}
+}
