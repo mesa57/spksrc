@@ -24,8 +24,8 @@ CONF_DIR = src/conf/
 INSTALLER_SCRIPT = src/installer.sh
 SSS_SCRIPT       = src/dsm-control.sh
 
-INSTALL_DEP_SERVICES = apache-web mysql
-START_DEP_SERVICES = apache-web mysql
+INSTALL_DEP_SERVICES = apache-web db
+START_DEP_SERVICES = apache-web db
 
 INSTALL_PREFIX = /usr/local/$(SPK_NAME)
 
